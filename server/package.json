@@ -1,0 +1,19 @@
+{
+  "name": "flam-study-deck-server",
+  "version": "1.0.0",
+  "description": "Express proxy backend that calls Gemini and returns validated flashcard decks",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@google/genai": "^0.3.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.19.2",
+    "openai": "^7.23.0",
+    "zod": "^3.23.8"
+  }
+}
